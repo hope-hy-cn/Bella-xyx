@@ -1,0 +1,82 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wx828de9d7647ce1e7",
+	"projectname": "dev",
+	"miniprogramRoot": "dist/wx/",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "编辑地址页",
+					"pathName": "pages/EditAddress/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的地址页",
+					"pathName": "pages/Address/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "main",
+					"pathName": "pages/Mine/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "return",
+					"pathName": "pages/SalesReturn/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/Cart/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/Order/main"
+				}
+			]
+		}
+	}
+}
